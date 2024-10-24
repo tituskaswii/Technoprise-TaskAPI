@@ -1,0 +1,28 @@
+
+#/.idea
+
+# Ignore environment files
+.env
+
+# Ignore vendor directory
+/vendor
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# Ignore logs
+/storage/logs/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/cache/*
+
+Homestead.json
+Homestead.yaml
+.phpunit.result.cache
+
+# Ignore other files
+/public/hot
+/public/storage
+.DS_Store
